@@ -1,0 +1,31 @@
+{
+  "file": "index.html",
+  "type": "web",
+  "title": "ASCII 鲨鱼海洋",
+  "description": "灰白 ASCII 鲨鱼与实时鱼群。混合种群、不同体型，可调数量、大小与鼠标交互。全部资源离线运行。",
+  "preview": "preview.png",
+  "general": {
+    "properties": {
+      "sharkcount": { "order": 100, "text": "鲨鱼数量", "type": "slider", "value": 5, "min": 1, "max": 8, "fraction": false },
+      "sharksize": { "order": 110, "text": "鲨鱼大小（%）", "type": "slider", "value": 100, "min": 60, "max": 140, "fraction": false },
+      "sharkspecies": {
+        "order": 120,
+        "text": "鲨鱼品种",
+        "type": "combo",
+        "value": "mixed",
+        "options": [
+          { "label": "混合种群", "value": "mixed" },
+          { "label": "普通鲨", "value": "classic" },
+          { "label": "锤头鲨", "value": "hammerhead" },
+          { "label": "大锤头鲨", "value": "greathammer" },
+          { "label": "虎鲨", "value": "tiger" },
+          { "label": "斑马鲨", "value": "zebra" },
+          { "label": "鲭鲨", "value": "mako" },
+          { "label": "长尾鲨", "value": "thresher" },
+          { "label": "护士鲨", "value": "nurse" }
+        ]
+      },
+      "interactive": { "order": 130, "text": "鼠标交互", "type": "bool", "value": true }
+    }
+  }
+}
