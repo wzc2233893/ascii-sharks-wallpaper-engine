@@ -1,6 +1,6 @@
-# ASCII 鲨鱼海洋 · Wallpaper Engine
+# ASCII 鲨鱼海洋 · Wallpaper Engine / Lively
 
-实时 ASCII 海洋动画，以及可离线导入 Wallpaper Engine（小红车）的网页壁纸。
+实时 ASCII 海洋动画，以及可离线导入 Wallpaper Engine（小红车）和 Lively Wallpaper 的网页壁纸。
 
 基于 **ascii-sharks**（Copyright © 2026 drewdi，MIT）修改。原作者的许可证完整保留于 [LICENSE](LICENSE)。这是包含视觉优化与小红车适配的修改版。
 
@@ -13,6 +13,15 @@
 也可以下载整个仓库，导入 `wallpaper-engine/index.html`。该文件夹已经编译完成，不需要安装 Node.js、启动服务器或连接互联网。
 
 [完整中文使用说明](wallpaper-engine/使用说明.txt)包含参数菜单没有出现时的配置导入方式。
+
+## Lively Wallpaper
+
+下载 [Lively 专用压缩包](downloads/ASCII-Sharks-Lively.zip)，在 Lively 中选择“添加壁纸”并导入整个 ZIP。
+包内包含 `LivelyInfo.json`，软件会将资源安装进自己的壁纸库。
+
+此包与小红车版使用相同的鲨鱼形态与运行代码，默认 5 种鲨鱼、不同体型、30 FPS，支持鼠标交互。当前为基本兼容版，尚未提供 Lively 专用的自定义参数菜单。
+
+已在 Windows 11 的 Lively 2.4.4.0 中完成主屏幕导入，并确认 WebView2 播放器成功加载本地网页。官方截图接口在该环境中超时，完整的视觉效果验证仍需在桌面确认。
 
 ## 效果与设置
 
